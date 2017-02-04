@@ -1,4 +1,4 @@
-package: github.com/shawncatz/go-destiny
+package: github.com/shawncatz/go-destiny/alexa
 import:
 - package: github.com/mikeflynn/go-alexa
   subpackages:
