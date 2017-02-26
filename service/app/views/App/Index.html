@@ -1,0 +1,30 @@
+{{set . "title" "Home"}}
+{{template "header.html" .}}
+
+<div id="login" role="main">
+    <div class="centerbox">
+        <h2>Destiny</h2>
+        <form accept-charset="UTF-8" action='{{url "Users.Login"}}' class="simple_form form-vertical" id="new_user"
+              method="post" novalidate="novalidate">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email" value="{{.flash.email}}">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="remember" id="remember"> Remember Me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Login</button>
+        </form>
+    </div>
+    <div>
+        Don't have an account? <a href='{{url "App.Register"}}'>Register Here!</a>
+    </div>
+</div>
+
+{{template "footer.html" .}}
