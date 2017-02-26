@@ -1,0 +1,18 @@
+hash: e96a30b1136eb137263dad6f6bcc365112e6ff7d6673e74bd9cf02566bff5f31
+updated: 2017-02-04T00:05:45.911909109-08:00
+imports:
+- name: github.com/codegangsta/negroni
+  version: 61dbefc515b4dede6eb2de7df1e54d49edce892d
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
+- name: github.com/mikeflynn/go-alexa
+  version: ca9bde7854923bcf74f5e1591d6d1a596492bb6f
+  subpackages:
+  - skillserver
+- name: github.com/shawncatz/go-destiny
+  version: 132ae40c2e87635861a9b6060b9b487397a9bb88
+  subpackages:
+  - destiny
+testImports: []

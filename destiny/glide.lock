@@ -1,0 +1,12 @@
+hash: d94bd28c42f6bb61e38866bf2c29f3cecde45b8ee4ffd608815c87720843ed57
+updated: 2017-02-24T02:59:45.975224098-08:00
+imports:
+- name: github.com/joho/godotenv
+  version: 726cc8b906e3d31c70a9671c90a13716a8d3f50d
+- name: golang.org/x/net
+  version: 41bba8d80bbfab43231ffdf4c210037baae5f6a3
+  subpackages:
+  - publicsuffix
+- name: gopkg.in/resty.v0
+  version: 2e0c2310ba20c7edb6162ea2f6c0d5bba2e5e56d
+testImports: []
