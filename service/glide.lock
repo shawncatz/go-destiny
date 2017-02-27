@@ -1,8 +1,12 @@
-hash: 7e3f3ce2c02556476b08945e494e960e793bb132f5ee756d5b45de30dc283dd6
-updated: 2017-02-26T02:21:17.044863055-08:00
+hash: 084e1cf8ec44214e9c2667b95f6f97910bc4abc4a11ba51b34bd49d60c478a9d
+updated: 2017-02-26T21:33:05.11918861-08:00
 imports:
 - name: github.com/agtorre/gocolorize
   version: 99fea4bc9517f07eea8194702cb7076f4845b7de
+- name: github.com/joho/godotenv
+  version: 726cc8b906e3d31c70a9671c90a13716a8d3f50d
+  subpackages:
+  - autoload
 - name: github.com/klauspost/compress
   version: 14c9a76e3c95e47f8ccce949bba2c1101a8b85e6
   subpackages:
@@ -15,6 +19,14 @@ imports:
   version: 1bab8b35b6bb565f92cbc97939610af9369f942a
 - name: github.com/maxwellhealth/bongo
   version: 58e3a1fbb5ea15dde8675b60becb2a9950e70164
+- name: github.com/maxwellhealth/go-dotaccess
+  version: ae070a2d2a38fd7233e255ded21fb26fe36b4796
+- name: github.com/maxwellhealth/mgo
+  version: 7cf891ece9675b85be55976877476abf92be0508
+  subpackages:
+  - bson
+- name: github.com/oleiade/reflections
+  version: 0e86b3c98b2ff33e30c85cfe97d9a63d439fe7eb
 - name: github.com/revel/config
   version: 75f5ee659b5338d1ce823536fe9b9e50b4de01b4
 - name: github.com/revel/modules
@@ -39,4 +51,11 @@ imports:
   - unix
 - name: gopkg.in/fsnotify.v1
   version: 629574ca2a5df945712d3079857300b5e4da0236
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
 testImports: []

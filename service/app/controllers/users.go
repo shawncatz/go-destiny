@@ -13,6 +13,10 @@ type Users struct {
 func (c Users) Index() revel.Result {
 	user := c.connected()
 
+	if user == nil {
+		return c.Redirect(routes.App.Index())
+	}
+
 	return c.Render(user)
 }
 
